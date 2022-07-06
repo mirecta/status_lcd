@@ -1,6 +1,6 @@
 # Mini display for RatRig or Moonraker
 ![Status](img/status.jpg)
-![Status1](img/status2.jpg)
+![Status1](img/status3.jpg)
 Display show:
  - Position
  - Temperature
@@ -78,5 +78,5 @@ sudo systemctl start status-lcd.service
 
 ## Holder
 Print no support and then mount
-![3d](img/3d.jpg)
+![3d](img/3d.png)
 
