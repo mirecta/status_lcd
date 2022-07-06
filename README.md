@@ -4,7 +4,8 @@
 I use 240x240 IPS LCD 
 
 
-
+## Raspi SPI
+dtoverlay spi6-2cs
 
 ## Install
 put it all to /home/pi
