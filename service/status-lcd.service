@@ -1,0 +1,12 @@
+[Unit]
+Description=Status LCD
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/status_lcd/
+ExecStart=/usr/bin/python3 /home/pi/status_lcd/status-lcd.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
