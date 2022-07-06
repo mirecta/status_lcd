@@ -10,7 +10,7 @@ Display show:
 ## Python
 U must install  some dependencies 
 ```
-sudo apt install python3-pil
+sudo apt install python3-pil python3-spidev
 ```
 ## LCD
 I use 240x240 IPS LCD 
