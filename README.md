@@ -1,11 +1,16 @@
 # Mini display for RatRig or Moonraker
-
+## Python
+U must install  some dependencies 
+```
+sudo apt install python3-pil
+```
 ## LCD
 I use 240x240 IPS LCD 
 ![LCD](img/lcd.jpg)
 
 ## Raspi SPI
-![RASPI](img/lcd.jpg)
+this is for raspi 4 but u can use other kind raspi  but u must use SPI0 only (i think)
+![RASPI](img/rpi4-pinout.png )
 At first u must enable SPI subsystem.
 Edit /boot/config.txt
 ```
@@ -49,13 +54,14 @@ SDA <---> GPIO20 (SPI6 MOSI)
 RES <---> GPIO26
 DC  <---> GPIO13
 BLK <---> GPIO6
-```
+```  
 
+For other pins (RES,DC,BLK) edit file status-lcd.py under line 25 (u will see)
 
 ## Install
-put it all to /home/pi
+copy folder status_lcd (with folder) to /home/pi
 ```
-sudo cp status-lcd.service /lib/systemd/system/
+sudo cp service/status-lcd.service /lib/systemd/system/
 chmod +x /home/pi/status_lcd/status-lcd.py
 sudo systemctl daemon-reload
 sudo systemctl enable status-lcd.service
