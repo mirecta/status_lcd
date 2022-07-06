@@ -2,7 +2,7 @@
 
 ## LCD
 I use 240x240 IPS LCD 
-
+![LCD](img/lcd.jpg)
 
 ## Raspi SPI
 dtoverlay spi6-2cs
