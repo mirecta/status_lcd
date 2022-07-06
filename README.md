@@ -1,4 +1,12 @@
 # Mini display for RatRig or Moonraker
+![Status](img/status.jpg)
+![Status1](img/status1.jpg)
+Display show:
+ - Position
+ - Temperature
+ - Ratrig LOGO (if no print)
+ - Percentage and thumbnail (if print)
+ 
 ## Python
 U must install  some dependencies 
 ```
