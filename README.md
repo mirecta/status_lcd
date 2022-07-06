@@ -44,7 +44,7 @@ DC  <---> GPIO13
 BLK <---> GPIO6
 ```
 ### SPI6
-Edit /boot/config.txt adn add another line (previous line must keep)
+Edit /boot/config.txt and add another line (previous line must keep)
 ```
 sudo nano /boot/config.txt
 ```
