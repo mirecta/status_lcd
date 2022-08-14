@@ -6,7 +6,8 @@ After=multi-user.target
 Type=simple
 WorkingDirectory=/home/pi/status_lcd/
 ExecStart=/usr/bin/python3 /home/pi/status_lcd/status-lcd.py
-Restart=on-abort
+Restart=on-failure
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
